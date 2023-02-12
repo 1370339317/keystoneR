@@ -27,3 +27,7 @@ MANIFEST
 bindings/python/dist/
 bindings/python/src/
 
+/.vs/keystoneR/v16
+/.vs
+/msvc/.vs/keystone/v16
+/msvc/x64/Debug/ZERO_CHECK/ZERO_CHECK.tlog

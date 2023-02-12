@@ -1,0 +1,5 @@
+﻿  ASMConverterDlg.cpp
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\TestDemo\ASMConverter\ASMConverterDlg.cpp(190,23): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\TestDemo\ASMConverter\ASMConverterDlg.cpp(197,22): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\TestDemo\ASMConverter\ASMConverterDlg.cpp(198,22): warning C4244: “=”: 从“wchar_t”转换到“char”，可能丢失数据
+  ASMConverter.vcxproj -> C:\Users\13703\source\repos\1370339317\keystoneR\msvc\x64\Debug\ASMConverter.exe

@@ -1,0 +1,1483 @@
+Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+cl: 命令行 warning D9002 :忽略未知选项“--version”
+cl: 命令行 error D8003 :缺少源文件名
+Checking whether the ASM compiler is Clang using "--version" did not match "(clang version)":
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+cl: 命令行 warning D9002 :忽略未知选项“--version”
+cl: 命令行 error D8003 :缺少源文件名
+Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple LLVM version)":
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+cl: 命令行 warning D9002 :忽略未知选项“--version”
+cl: 命令行 error D8003 :缺少源文件名
+Checking whether the ASM compiler is ARMClang using "--version" did not match "armclang":
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+cl: 命令行 warning D9002 :忽略未知选项“--version”
+cl: 命令行 error D8003 :缺少源文件名
+Checking whether the ASM compiler is HP using "-V" did not match "HP C":
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+cl: 命令行 error D8004 :“/V”需要参数
+Checking whether the ASM compiler is Intel using "--version" did not match "(ICC)":
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+cl: 命令行 warning D9002 :忽略未知选项“--version”
+cl: 命令行 error D8003 :缺少源文件名
+Checking whether the ASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+]+oneAPI)":
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+cl: 命令行 warning D9002 :忽略未知选项“--version”
+cl: 命令行 error D8003 :缺少源文件名
+Checking whether the ASM compiler is SunPro using "-V" did not match "Sun C":
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+cl: 命令行 error D8004 :“/V”需要参数
+Checking whether the ASM compiler is XL using "-qversion" did not match "XL C":
+用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+cl: 命令行 warning D9002 :忽略未知选项“-qversion”
+cl: 命令行 error D8003 :缺少源文件名
+Determining if the include file dirent.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-w9rkpt
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_e3cbc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3cbc.dir\Debug\\" /Fd"cmTC_e3cbc.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-w9rkpt\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-w9rkpt\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “dirent.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-w9rkpt\cmTC_e3cbc.vcxproj]
+
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-v9387a
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_dff8f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dff8f.dir\Debug\\" /Fd"cmTC_dff8f.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-v9387a\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-v9387a\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “dlfcn.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-v9387a\cmTC_dff8f.vcxproj]
+
+
+
+Determining if the include file execinfo.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-arsmi9
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_6902b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6902b.dir\Debug\\" /Fd"cmTC_6902b.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-arsmi9\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-arsmi9\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “execinfo.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-arsmi9\cmTC_6902b.vcxproj]
+
+
+
+Determining if the include file link.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-wth2jc
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_54e01.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_54e01.dir\Debug\\" /Fd"cmTC_54e01.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-wth2jc\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-wth2jc\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “link.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-wth2jc\cmTC_54e01.vcxproj]
+
+
+
+Determining if the include file malloc/malloc.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-4vefps
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_139ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_139ef.dir\Debug\\" /Fd"cmTC_139ef.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-4vefps\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-4vefps\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “malloc/malloc.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-4vefps\cmTC_139ef.vcxproj]
+
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-2659s5
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_4bde2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4bde2.dir\Debug\\" /Fd"cmTC_4bde2.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-2659s5\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-2659s5\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “ndir.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-2659s5\cmTC_4bde2.vcxproj]
+
+
+
+Determining if the include file sys/dir.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-0bcgam
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_cd582.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd582.dir\Debug\\" /Fd"cmTC_cd582.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-0bcgam\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-0bcgam\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “sys/dir.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-0bcgam\cmTC_cd582.vcxproj]
+
+
+
+Determining if the include file sys/ioctl.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-jl34cd
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_e5f3d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5f3d.dir\Debug\\" /Fd"cmTC_e5f3d.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-jl34cd\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-jl34cd\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “sys/ioctl.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-jl34cd\cmTC_e5f3d.vcxproj]
+
+
+
+Determining if the include file sys/mman.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-ckgu2e
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_4dfe6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4dfe6.dir\Debug\\" /Fd"cmTC_4dfe6.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ckgu2e\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ckgu2e\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “sys/mman.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ckgu2e\cmTC_4dfe6.vcxproj]
+
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-guux11
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_c0ef5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c0ef5.dir\Debug\\" /Fd"cmTC_c0ef5.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-guux11\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-guux11\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “sys/ndir.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-guux11\cmTC_c0ef5.vcxproj]
+
+
+
+Determining if the include file sys/param.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-1psxjv
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_38b1f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38b1f.dir\Debug\\" /Fd"cmTC_38b1f.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-1psxjv\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-1psxjv\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-1psxjv\cmTC_38b1f.vcxproj]
+
+
+
+Determining if the include file sys/resource.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-7lxqrb
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_43172.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43172.dir\Debug\\" /Fd"cmTC_43172.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-7lxqrb\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-7lxqrb\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “sys/resource.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-7lxqrb\cmTC_43172.vcxproj]
+
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-b30yry
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_60da1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_60da1.dir\Debug\\" /Fd"cmTC_60da1.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-b30yry\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-b30yry\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-b30yry\cmTC_60da1.vcxproj]
+
+
+
+Determining if the include file sys/uio.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-azk9c3
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_c1db0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1db0.dir\Debug\\" /Fd"cmTC_c1db0.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-azk9c3\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-azk9c3\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “sys/uio.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-azk9c3\cmTC_c1db0.vcxproj]
+
+
+
+Determining if the include file termios.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-nvvlfj
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_3160a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3160a.dir\Debug\\" /Fd"cmTC_3160a.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-nvvlfj\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-nvvlfj\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “termios.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-nvvlfj\cmTC_3160a.vcxproj]
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-n55zwp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_c2bdc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c2bdc.dir\Debug\\" /Fd"cmTC_c2bdc.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-n55zwp\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-n55zwp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-n55zwp\cmTC_c2bdc.vcxproj]
+
+
+
+Determining if the include file utime.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-2foiwp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_4b00c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4b00c.dir\Debug\\" /Fd"cmTC_4b00c.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-2foiwp\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-2foiwp\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “utime.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-2foiwp\cmTC_4b00c.vcxproj]
+
+
+
+Determining if the include file zlib.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-lxtc40
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_4232b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4232b.dir\Debug\\" /Fd"cmTC_4232b.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-lxtc40\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-lxtc40\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “zlib.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-lxtc40\cmTC_4232b.vcxproj]
+
+
+
+Determining if the include file mach/mach.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-754891
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_29180.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29180.dir\Debug\\" /Fd"cmTC_29180.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-754891\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-754891\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “mach/mach.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-754891\cmTC_29180.vcxproj]
+
+
+
+Determining if the include file mach-o/dyld.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-3qj0eu
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_71229.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_71229.dir\Debug\\" /Fd"cmTC_71229.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-3qj0eu\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-3qj0eu\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “mach-o/dyld.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-3qj0eu\cmTC_71229.vcxproj]
+
+
+
+Determining if the include file histedit.h exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-fqb31y
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_22594.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22594.dir\Debug\\" /Fd"cmTC_22594.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-fqb31y\CheckIncludeFile.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-fqb31y\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “histedit.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-fqb31y\cmTC_22594.vcxproj]
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXXABI_H failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-v3b4ir
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a80dd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_CXXABI_H /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_a80dd.dir\Debug\\" /Fd"cmTC_a80dd.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-v3b4ir\src.cxx"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-v3b4ir\src.cxx(3,10): fatal error C1083: 无法打开包括文件: “cxxabi.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-v3b4ir\cmTC_a80dd.vcxproj]
+
+
+Source file was:
+
+#include <stddef.h>
+#include <cxxabi.h>
+int main() { return 0; }
+
+
+Determining if the arc4random exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-9sn43b
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_430d5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_430d5.dir\Debug\\" /Fd"cmTC_430d5.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-9sn43b\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-9sn43b\CheckSymbolExists.c(8,29): error C2065: “arc4random”: 未声明的标识符 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-9sn43b\cmTC_430d5.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the backtrace exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-kuxwtz
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a35b9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a35b9.dir\Debug\\" /Fd"cmTC_a35b9.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-kuxwtz\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-kuxwtz\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “execinfo.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-kuxwtz\cmTC_a35b9.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getpagesize exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-uf1vf8
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_fc0ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc0ba.dir\Debug\\" /Fd"cmTC_fc0ba.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-uf1vf8\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-uf1vf8\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-uf1vf8\cmTC_fc0ba.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrusage exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-bzswzl
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_adb9a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_adb9a.dir\Debug\\" /Fd"cmTC_adb9a.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-bzswzl\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-bzswzl\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “sys/resource.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-bzswzl\cmTC_adb9a.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setrlimit exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-wiw4zm
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_20cb0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20cb0.dir\Debug\\" /Fd"cmTC_20cb0.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-wiw4zm\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-wiw4zm\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “sys/resource.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-wiw4zm\cmTC_20cb0.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isatty exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-u3hgxh
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_b6533.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b6533.dir\Debug\\" /Fd"cmTC_b6533.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-u3hgxh\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-u3hgxh\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-u3hgxh\cmTC_b6533.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimens exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-xw6shb
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_e7b19.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7b19.dir\Debug\\" /Fd"cmTC_e7b19.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-xw6shb\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-xw6shb\CheckSymbolExists.c(8,27): error C2065: “futimens”: 未声明的标识符 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-xw6shb\cmTC_e7b19.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the futimes exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-oz4904
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_4579d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4579d.dir\Debug\\" /Fd"cmTC_4579d.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-oz4904\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-oz4904\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-oz4904\cmTC_4579d.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mallctl exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-0hp3gh
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_1f174.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f174.dir\Debug\\" /Fd"cmTC_1f174.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-0hp3gh\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-0hp3gh\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “malloc_np.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-0hp3gh\cmTC_1f174.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallctl
+  return ((int*)(&mallctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mallinfo exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-gt28nh
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_05143.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_05143.dir\Debug\\" /Fd"cmTC_05143.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-gt28nh\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-gt28nh\CheckSymbolExists.c(8,27): error C2065: “mallinfo”: 未声明的标识符 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-gt28nh\cmTC_05143.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the malloc_zone_statistics exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-y9ggon
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_f785c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f785c.dir\Debug\\" /Fd"cmTC_f785c.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-y9ggon\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-y9ggon\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “malloc/malloc.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-y9ggon\cmTC_f785c.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkdtemp exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-ici8zb
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_50abb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50abb.dir\Debug\\" /Fd"cmTC_50abb.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ici8zb\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ici8zb\CheckSymbolExists.c(3,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ici8zb\cmTC_50abb.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdtemp
+  return ((int*)(&mkdtemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mkstemp exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-srqmey
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_32331.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_32331.dir\Debug\\" /Fd"cmTC_32331.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-srqmey\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-srqmey\CheckSymbolExists.c(3,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-srqmey\cmTC_32331.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkstemp
+  return ((int*)(&mkstemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the mktemp exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-4xv2ge
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_e8f2e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e8f2e.dir\Debug\\" /Fd"cmTC_e8f2e.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-4xv2ge\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-4xv2ge\CheckSymbolExists.c(3,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-4xv2ge\cmTC_e8f2e.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mktemp
+  return ((int*)(&mktemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the closedir exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-d5yxb8
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_fc4b1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fc4b1.dir\Debug\\" /Fd"cmTC_fc4b1.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-d5yxb8\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-d5yxb8\CheckSymbolExists.c(3,10): fatal error C1083: 无法打开包括文件: “dirent.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-d5yxb8\cmTC_fc4b1.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closedir
+  return ((int*)(&closedir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the opendir exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-14wn9f
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_b34a3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b34a3.dir\Debug\\" /Fd"cmTC_b34a3.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-14wn9f\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-14wn9f\CheckSymbolExists.c(3,10): fatal error C1083: 无法打开包括文件: “dirent.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-14wn9f\cmTC_b34a3.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef opendir
+  return ((int*)(&opendir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the readdir exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-vrxy2w
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_89385.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89385.dir\Debug\\" /Fd"cmTC_89385.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-vrxy2w\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-vrxy2w\CheckSymbolExists.c(3,10): fatal error C1083: 无法打开包括文件: “dirent.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-vrxy2w\cmTC_89385.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef readdir
+  return ((int*)(&readdir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getcwd exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-onh6bb
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a3df7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a3df7.dir\Debug\\" /Fd"cmTC_a3df7.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-onh6bb\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-onh6bb\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-onh6bb\cmTC_a3df7.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getcwd
+  return ((int*)(&getcwd))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-7e4hr0
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_13bbd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13bbd.dir\Debug\\" /Fd"cmTC_13bbd.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-7e4hr0\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-7e4hr0\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-7e4hr0\cmTC_13bbd.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getrlimit exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-0b214k
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_138fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_138fe.dir\Debug\\" /Fd"cmTC_138fe.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-0b214k\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-0b214k\CheckSymbolExists.c(3,10): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-0b214k\cmTC_138fe.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the posix_spawn exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-fad958
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_af080.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_af080.dir\Debug\\" /Fd"cmTC_af080.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-fad958\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-fad958\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “spawn.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-fad958\cmTC_af080.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pread exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-x911mj
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_45720.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45720.dir\Debug\\" /Fd"cmTC_45720.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-x911mj\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-x911mj\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-x911mj\cmTC_45720.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the realpath exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-y3zqvl
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_99305.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_99305.dir\Debug\\" /Fd"cmTC_99305.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-y3zqvl\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-y3zqvl\CheckSymbolExists.c(8,27): error C2065: “realpath”: 未声明的标识符 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-y3zqvl\cmTC_99305.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the sbrk exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-gna7pf
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_01a8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_01a8e.dir\Debug\\" /Fd"cmTC_01a8e.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-gna7pf\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-gna7pf\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-gna7pf\cmTC_01a8e.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the srand48 exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-nw59lz
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_1ce7a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ce7a.dir\Debug\\" /Fd"cmTC_1ce7a.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-nw59lz\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-nw59lz\CheckSymbolExists.c(8,26): error C2065: “srand48”: 未声明的标识符 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-nw59lz\cmTC_1ce7a.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef srand48
+  return ((int*)(&srand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strtoq exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-dw0fnx
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_0cb4f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0cb4f.dir\Debug\\" /Fd"cmTC_0cb4f.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-dw0fnx\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-dw0fnx\CheckSymbolExists.c(8,25): error C2065: “strtoq”: 未声明的标识符 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-dw0fnx\cmTC_0cb4f.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoq
+  return ((int*)(&strtoq))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strerror_r exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-c3doea
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_3e51b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e51b.dir\Debug\\" /Fd"cmTC_3e51b.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-c3doea\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-c3doea\CheckSymbolExists.c(8,29): error C2065: “strerror_r”: 未声明的标识符 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-c3doea\cmTC_3e51b.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the setenv exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-yc7nnj
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_5ef0d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5ef0d.dir\Debug\\" /Fd"cmTC_5ef0d.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-yc7nnj\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-yc7nnj\CheckSymbolExists.c(8,25): error C2065: “setenv”: 未声明的标识符 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-yc7nnj\cmTC_5ef0d.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function _alloca exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-1rixzl
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_87298.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=_alloca /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87298.dir\Debug\\" /Fd"cmTC_87298.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-1rixzl\CheckFunctionExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-1rixzl\CheckFunctionExists.c(7,3): warning C4391: “char _alloca(void)”: 不正确的内部函数返回类型，应为“void” [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-1rixzl\cmTC_87298.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-1rixzl\CheckFunctionExists.c(7,3): warning C4392: “char _alloca(void)”: 不正确的内部函数参数个数，应为“1”个参数 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-1rixzl\cmTC_87298.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-1rixzl\CheckFunctionExists.c(17,24): error C2168: “_alloca”: 内部函数的实参太少 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-1rixzl\cmTC_87298.vcxproj]
+
+
+
+Determining if the function __alloca exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-a49swk
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_d5b9b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__alloca /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d5b9b.dir\Debug\\" /Fd"cmTC_d5b9b.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-a49swk\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __alloca，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-a49swk\cmTC_d5b9b.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-a49swk\Debug\cmTC_d5b9b.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-a49swk\cmTC_d5b9b.vcxproj]
+
+
+
+Determining if the function __chkstk_ms exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-8wg3a4
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_d42ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__chkstk_ms /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d42ff.dir\Debug\\" /Fd"cmTC_d42ff.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-8wg3a4\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __chkstk_ms，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-8wg3a4\cmTC_d42ff.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-8wg3a4\Debug\cmTC_d42ff.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-8wg3a4\cmTC_d42ff.vcxproj]
+
+
+
+Determining if the function ___chkstk exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-3ywbb8
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_2ce03.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=___chkstk /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2ce03.dir\Debug\\" /Fd"cmTC_2ce03.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-3ywbb8\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 ___chkstk，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-3ywbb8\cmTC_2ce03.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-3ywbb8\Debug\cmTC_2ce03.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-3ywbb8\cmTC_2ce03.vcxproj]
+
+
+
+Determining if the function ___chkstk_ms exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-ga67hx
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_67ab9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=___chkstk_ms /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_67ab9.dir\Debug\\" /Fd"cmTC_67ab9.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ga67hx\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 ___chkstk_ms，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ga67hx\cmTC_67ab9.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ga67hx\Debug\cmTC_67ab9.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ga67hx\cmTC_67ab9.vcxproj]
+
+
+
+Determining if the function __ashldi3 exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-e27fia
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_028ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__ashldi3 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_028ba.dir\Debug\\" /Fd"cmTC_028ba.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-e27fia\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __ashldi3，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-e27fia\cmTC_028ba.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-e27fia\Debug\cmTC_028ba.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-e27fia\cmTC_028ba.vcxproj]
+
+
+
+Determining if the function __ashrdi3 exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-ismnqy
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_76e2f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__ashrdi3 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_76e2f.dir\Debug\\" /Fd"cmTC_76e2f.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ismnqy\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __ashrdi3，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ismnqy\cmTC_76e2f.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ismnqy\Debug\cmTC_76e2f.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ismnqy\cmTC_76e2f.vcxproj]
+
+
+
+Determining if the function __divdi3 exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-vkxm5u
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_8fc43.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__divdi3 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8fc43.dir\Debug\\" /Fd"cmTC_8fc43.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-vkxm5u\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __divdi3，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-vkxm5u\cmTC_8fc43.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-vkxm5u\Debug\cmTC_8fc43.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-vkxm5u\cmTC_8fc43.vcxproj]
+
+
+
+Determining if the function __fixdfdi exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-3rgjjv
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_35324.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__fixdfdi /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_35324.dir\Debug\\" /Fd"cmTC_35324.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-3rgjjv\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __fixdfdi，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-3rgjjv\cmTC_35324.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-3rgjjv\Debug\cmTC_35324.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-3rgjjv\cmTC_35324.vcxproj]
+
+
+
+Determining if the function __fixsfdi exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-9q9y3l
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_734ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__fixsfdi /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_734ea.dir\Debug\\" /Fd"cmTC_734ea.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-9q9y3l\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __fixsfdi，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-9q9y3l\cmTC_734ea.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-9q9y3l\Debug\cmTC_734ea.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-9q9y3l\cmTC_734ea.vcxproj]
+
+
+
+Determining if the function __floatdidf exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-t4zikz
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_203cb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__floatdidf /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_203cb.dir\Debug\\" /Fd"cmTC_203cb.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-t4zikz\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __floatdidf，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-t4zikz\cmTC_203cb.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-t4zikz\Debug\cmTC_203cb.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-t4zikz\cmTC_203cb.vcxproj]
+
+
+
+Determining if the function __lshrdi3 exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-jgikdq
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_20eeb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__lshrdi3 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20eeb.dir\Debug\\" /Fd"cmTC_20eeb.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-jgikdq\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __lshrdi3，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-jgikdq\cmTC_20eeb.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-jgikdq\Debug\cmTC_20eeb.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-jgikdq\cmTC_20eeb.vcxproj]
+
+
+
+Determining if the function __moddi3 exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-sstqb4
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_405d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__moddi3 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_405d2.dir\Debug\\" /Fd"cmTC_405d2.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-sstqb4\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __moddi3，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-sstqb4\cmTC_405d2.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-sstqb4\Debug\cmTC_405d2.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-sstqb4\cmTC_405d2.vcxproj]
+
+
+
+Determining if the function __udivdi3 exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-0bqrhv
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_dcc3b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__udivdi3 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dcc3b.dir\Debug\\" /Fd"cmTC_dcc3b.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-0bqrhv\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __udivdi3，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-0bqrhv\cmTC_dcc3b.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-0bqrhv\Debug\cmTC_dcc3b.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-0bqrhv\cmTC_dcc3b.vcxproj]
+
+
+
+Determining if the function __umoddi3 exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-b099w6
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_9366d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__umoddi3 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9366d.dir\Debug\\" /Fd"cmTC_9366d.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-b099w6\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __umoddi3，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-b099w6\cmTC_9366d.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-b099w6\Debug\cmTC_9366d.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-b099w6\cmTC_9366d.vcxproj]
+
+
+
+Determining if the function __main exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-jf7veo
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_2f30d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__main /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2f30d.dir\Debug\\" /Fd"cmTC_2f30d.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-jf7veo\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __main，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-jf7veo\cmTC_2f30d.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-jf7veo\Debug\cmTC_2f30d.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-jf7veo\cmTC_2f30d.vcxproj]
+
+
+
+Determining if the function __cmpdi2 exists failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-pmy2ca
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_a35dc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=__cmpdi2 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a35dc.dir\Debug\\" /Fd"cmTC_a35dc.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-pmy2ca\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: 无法解析的外部符号 __cmpdi2，函数 main 中引用了该符号 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-pmy2ca\cmTC_a35dc.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-pmy2ca\Debug\cmTC_a35dc.exe : fatal error LNK1120: 1 个无法解析的外部命令 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-pmy2ca\cmTC_a35dc.vcxproj]
+
+
+
+Determining if the __GLIBC__ exist failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-ph5crt
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_cc175.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cc175.dir\Debug\\" /Fd"cmTC_cc175.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ph5crt\CheckSymbolExists.c"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ph5crt\CheckSymbolExists.c(8,28): error C2065: “__GLIBC__”: 未声明的标识符 [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-ph5crt\cmTC_cc175.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_U_INT64_T failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-tb2mqj
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_d923b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.cxx
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_U_INT64_T /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d923b.dir\Debug\\" /Fd"cmTC_d923b.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-tb2mqj\src.cxx"
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-tb2mqj\src.cxx(5,19): error C4430: 缺少类型说明符 - 假定为 int。注意: C++ 不支持默认 int [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-tb2mqj\cmTC_d923b.vcxproj]
+C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-tb2mqj\src.cxx(5,12): error C2146: 语法错误: 缺少“;”(在标识符“typeVar”的前面) [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-tb2mqj\cmTC_d923b.vcxproj]
+
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ u_int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+
+Performing C++ SOURCE FILE Test SUPPORTS_NO_VARIADIC_MACROS_FLAG failed with the following output:
+Change Dir: C:/Users/13703/source/repos/1370339317/keystoneR/msvc/CMakeFiles/CMakeScratch/TryCompile-vt5mzp
+
+Run Build Command(s):D:/Microsoft Visual Studio/2019/Enterprise/MSBuild/Current/Bin/MSBuild.exe cmTC_bf6e6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30147 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D SUPPORTS_NO_VARIADIC_MACROS_FLAG /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bf6e6.dir\Debug\\" /Fd"cmTC_bf6e6.dir\Debug\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue  -Wno-variadic-macros "C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-vt5mzp\src.cxx"
+cl : 命令行 error D8021: 无效的数值参数“/Wno-variadic-macros” [C:\Users\13703\source\repos\1370339317\keystoneR\msvc\CMakeFiles\CMakeScratch\TryCompile-vt5mzp\cmTC_bf6e6.vcxproj]
+
+
+Source file was:
+int main() { return 0; }
+

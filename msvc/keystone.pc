@@ -1,0 +1,7 @@
+Name: keystone
+Description: Keystone assembler engine
+Version: 0.9
+libdir=C:/Program Files (x86)/keystone/lib
+includedir=C:/Program Files (x86)/keystone/include
+Libs: -L${libdir} -lkeystone
+Cflags: -I${includedir}

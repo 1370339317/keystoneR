@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\13703\source\repos\1370339317\keystoneR\suite\fuzz\onefile.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\13703\source\repos\1370339317\keystoneR\suite\fuzz\fuzz_asm_mipsbe.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\13703\source\repos\1370339317\keystoneR\suite\fuzz\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{55F84CE4-3DBB-3978-8475-FE3CE8943C43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

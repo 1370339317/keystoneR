@@ -1,0 +1,10 @@
+^C:\USERS\13703\SOURCE\REPOS\1370339317\KEYSTONER\LLVM\KEYSTONE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/13703/source/repos/1370339317/keystoneR -BC:/Users/13703/source/repos/1370339317/keystoneR/msvc --check-stamp-file C:/Users/13703/source/repos/1370339317/keystoneR/msvc/llvm/keystone/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
